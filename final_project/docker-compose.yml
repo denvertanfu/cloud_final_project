@@ -1,0 +1,9 @@
+version: "2.2"
+services:
+  app:
+    build: .
+    image: ftan44/my_microservice
+    volumes:
+      - ./usr/src/myapp
+    stdin_open: true
+    tty: true
