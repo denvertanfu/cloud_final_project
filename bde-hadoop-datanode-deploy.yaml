@@ -21,7 +21,7 @@ spec:
         app: hadoop-datanode
     spec:
       containers:
-        - image: bde2020/hadoop-datanode:latest
+        - image: gcr.io/engaged-reducer-326904/ftan44/hadoop-datanode
           imagePullPolicy: Always
           name: hadoop-datanode
           env:
