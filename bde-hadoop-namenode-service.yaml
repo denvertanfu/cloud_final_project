@@ -20,7 +20,7 @@ spec:
         app: hadoop-namenode
     spec:
       containers:
-      - image: bde2020/hadoop-namenode:latest
+      - image: gcr.io/engaged-reducer-326904/ftan44/hadoop-namenode
         imagePullPolicy: Always
         name: hadoop-namenode
         env:
