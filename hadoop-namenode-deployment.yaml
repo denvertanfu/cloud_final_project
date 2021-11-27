@@ -20,8 +20,7 @@ spec:
         app: hadoop-namenode
     spec:
       containers:
-      - image: gcr.io/engaged-reducer-326904/ftan44/hadoop-namenode
-        imagePullPolicy: Always
+      - image: gcr.io/engaged-reducer-326904/ftan44/hadoop-namenode:latest
         name: hadoop-namenode
         env:
           - name: CLUSTER_NAME
