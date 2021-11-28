@@ -21,8 +21,11 @@ spec:
         app: hadoop-datanode
     spec:
       containers:
-        - image: gcr.io/engaged-reducer-326904/ftan44/hadoop-datanode:latest
+        - image: bde2020/hadoop-namenode:latest
+          imagePullPolicy: Always
           name: hadoop-datanode
           env:
           - name: SERVICE_PRECONDITION
-            value: "namenode:9870"
+            value: hadoop-service:9000
+          - name: CORE_CONF_fs_defaultFS
+            value: hdfs://hadoop-service:9000
