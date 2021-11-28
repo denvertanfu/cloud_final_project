@@ -27,5 +27,11 @@ Demo Video Link:
 you can also used the cluster created from before in the homework assignments
 
 ### Docker Image on GCP-Deployment and Service:
-#### Download four services folder
+#### Download four_services folder from this repository
+
+#### Upload to GCP using GUI console, select the four_services from your local and upload all the yaml files
+![image](https://user-images.githubusercontent.com/60454133/143781441-a75cd127-aa49-4692-8d19-c904350dc6e5.png)
+
+#### cd to four_services file and type "kubectl apply -f .", this would deploy and expose the images and services
+![image](https://user-images.githubusercontent.com/60454133/143781473-d0aac5bd-69b9-47c9-8c01-de90eff6d663.png)
 
