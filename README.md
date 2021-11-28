@@ -28,6 +28,7 @@ you can also used the cluster created from before in the homework assignments
 
 ### Docker Image on GCP-Deployment and Service:
 #### Download four_services folder from this repository
+![image](https://user-images.githubusercontent.com/60454133/143781497-d870cb21-5cfb-412d-9f7f-88f6e83507bd.png)
 
 #### Upload to GCP using GUI console, select the four_services from your local and upload all the yaml files
 ![image](https://user-images.githubusercontent.com/60454133/143781441-a75cd127-aa49-4692-8d19-c904350dc6e5.png)
