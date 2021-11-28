@@ -24,7 +24,8 @@ Demo Video Link:
 
 ## Create a Kubernetes Cluster on GCP
 ![image](https://user-images.githubusercontent.com/60454133/143778324-9d476870-f16d-42d0-8b9a-e92fed748cff.png)
+you can also used the cluster created from before in the homework assignments
 
 ### Docker Image on GCP-Deployment and Service:
-#### 
-
+#### pull and push to GCP
+- pull the jupyter notebook, apache hadoop (namenode and datanode)
