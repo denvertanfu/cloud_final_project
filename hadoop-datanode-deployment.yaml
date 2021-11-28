@@ -21,7 +21,7 @@ spec:
         app: hadoop-datanode
     spec:
       containers:
-        - image: bde2020/hadoop-namenode:latest
+        - image: bde2020/hadoop-datanode:latest
           imagePullPolicy: Always
           name: hadoop-datanode
           env:
