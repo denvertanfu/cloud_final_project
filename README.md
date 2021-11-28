@@ -33,6 +33,9 @@ you can also used the cluster created from before in the homework assignments
 #### Upload to GCP using GUI console, select the four_services from your local and upload all the yaml files
 ![image](https://user-images.githubusercontent.com/60454133/143781441-a75cd127-aa49-4692-8d19-c904350dc6e5.png)
 
+![image](https://user-images.githubusercontent.com/60454133/143784472-8bf03ec3-64bd-4311-ae1d-d9254029547f.png)
+
+
 #### cd to four_services file and type ``kubectl apply -f .``, this would deploy and expose all the images and services
 Go the Kubernetes engine services & ingress page and check the results
 ![image](https://user-images.githubusercontent.com/60454133/143782069-64cfcdd8-a683-4fb0-8364-dc9f69bae885.png)
