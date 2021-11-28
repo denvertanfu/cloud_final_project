@@ -20,6 +20,11 @@ Demo Video Link:
 - Apache Spark: https://hub.docker.com/r/bitnami/spark/
 - Sonarqube: https://hub.docker.com/_/sonarqube
 
-## deploy to kubernetes enginer on GCP
-### Screenshot for the Kubernetes Engine with the containers running on it
-<img width="1280" alt="Screen Shot 2021-10-28 at 2 27 06 PM" src="https://user-images.githubusercontent.com/60454133/139333340-bc9f59c6-5db7-456b-a4c8-0ff6165ad745.png">
+## Steps for running the microservices
+
+## Create a Kubernetes Cluster on GCP
+![image](https://user-images.githubusercontent.com/60454133/143778324-9d476870-f16d-42d0-8b9a-e92fed748cff.png)
+
+### Docker Image on GCP-Deployment and Service:
+#### 
+
