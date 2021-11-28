@@ -34,7 +34,11 @@ you can also used the cluster created from before in the homework assignments
 ![image](https://user-images.githubusercontent.com/60454133/143781441-a75cd127-aa49-4692-8d19-c904350dc6e5.png)
 
 #### cd to four_services file and type "kubectl apply -f .", this would deploy and expose all the images and services
-![image](https://user-images.githubusercontent.com/60454133/143781473-d0aac5bd-69b9-47c9-8c01-de90eff6d663.png)
+![image](https://user-images.githubusercontent.com/60454133/143782069-64cfcdd8-a683-4fb0-8364-dc9f69bae885.png)
 
 #### from the kubernetes engine service, we can see the Endpoints for each services
+![image](https://user-images.githubusercontent.com/60454133/143782080-4c788ad7-a585-4e26-89ab-0a0a5e7c674a.png)
+
+
+#### Save those endpoints and set in microservice.py
 
