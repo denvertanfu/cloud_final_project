@@ -4,6 +4,7 @@
 ![image](https://user-images.githubusercontent.com/60454133/143777876-cc6f3dc6-913d-42e5-8eeb-4878bc18ae55.png)
 
 Demo Video Link:
+https://cmu.box.com/s/zmhl986zumkb1svmuxd8zxrmu00h40x0
 
 ## Source Code for the main terminal application
 ### Containerize my microservice application
@@ -20,7 +21,7 @@ Demo Video Link:
 - Apache Spark: https://hub.docker.com/r/bitnami/spark/
 - Sonarqube: https://hub.docker.com/_/sonarqube
 
-## Steps for running the microservices
+# Steps for running the microservices
 
 ## Create a Kubernetes Cluster on GCP
 ![image](https://user-images.githubusercontent.com/60454133/143778324-9d476870-f16d-42d0-8b9a-e92fed748cff.png)
@@ -33,6 +34,7 @@ you can also used the cluster created from before in the homework assignments
 #### Upload to GCP using GUI console, select the four_services from your local and upload all the yaml files
 ![image](https://user-images.githubusercontent.com/60454133/143781441-a75cd127-aa49-4692-8d19-c904350dc6e5.png)
 
+#### Or use cloud storage to upload the files to bucket 
 ![image](https://user-images.githubusercontent.com/60454133/143784472-8bf03ec3-64bd-4311-ae1d-d9254029547f.png)
 
 
