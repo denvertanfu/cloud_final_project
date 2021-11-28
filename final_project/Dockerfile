@@ -1,4 +1,0 @@
-FROM python:latest
-COPY . /usr/src/myapp
-WORKDIR /usr/src/myapp
-CMD ["python","microservice.py"]
