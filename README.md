@@ -3,16 +3,17 @@
 ## Source Code for the main terminal application
 ### Containerize my microservice application
 - the python script is as microservice.py, which provides the terminal application.
-- docker built -t ftan44/microserver (without user input) and push to dockerhub (https://hub.docker.com/r/ftan44/microservice)
-- docker built -t ftan44/my_microserver (with user input) and push to dockerhub (https://hub.docker.com/r/ftan44/my_microservice)
+- microservice docker image on docker hub: https://hub.docker.com/r/ftan44/cloud_micro
 
 
 ## Source code for all Dockerfiles that were created and URLs for all docker images on Docker Hub
 ### Docker image used url (existing):
-- Juypter notebook: docker pull jupyter/datascience-notebook
-- Apache Hadoop: docker pull sequenceiq/hadoop-docker
-- Apache Spark: docker pull bitnami/spark
-- Sonarqube: docker pull sonarqube
+- Juypter notebook: https://hub.docker.com/r/jupyter/minimal-notebook
+- Apache Hadoop:
+  - namenode: https://hub.docker.com/r/bde2020/hadoop-namenode
+  - datanode: https://hub.docker.com/r/bde2020/hadoop-datanode
+- Apache Spark: https://hub.docker.com/r/bitnami/spark/
+- Sonarqube: https://hub.docker.com/_/sonarqube
 
 ## deploy to kubernetes enginer on GCP
 ### Screenshot for the Kubernetes Engine with the containers running on it
