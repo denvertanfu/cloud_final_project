@@ -27,5 +27,5 @@ Demo Video Link:
 you can also used the cluster created from before in the homework assignments
 
 ### Docker Image on GCP-Deployment and Service:
-#### pull and push to GCP
-- pull the jupyter notebook, apache hadoop (namenode and datanode)
+#### Download four services folder
+
